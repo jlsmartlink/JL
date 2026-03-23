@@ -16,7 +16,7 @@ const locales = ['en', 'zh', 'de', 'ar'];
 
 // 直接读取messages文件
 async function getMessages(locale: string) {
-  return (await import(`../../../../messages/${locale}.json`)).default;
+  return (await import(`../../../messages/${locale}.json`)).default;
 }
 
 export default async function RootLayout({
