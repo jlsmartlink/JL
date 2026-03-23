@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { NextIntlClientProvider } from 'next-intl';
+import { NextIntlClientProvider, unstable_setRequestLocale } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import "../globals.css";
@@ -23,6 +23,8 @@ export default async function RootLayout({
   params: { locale: string };
 }) {
   const { locale } = params;
+  unstable_setRequestLocale(locale);
+  
   if (!locales.includes(locale)) {
     notFound();
   }
