@@ -1,0 +1,23 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "products": "Produkte",
+    "about": "Über Uns",
+    "contact": "Kontakt"
+  },
+  "home": {
+    "title": "JL Smart Link Industrial",
+    "subtitle": "Ihr zuverlässiger Lieferant von Industrieteilen",
+    "description": "Wir sind spezialisiert auf die Bereitstellung hochwertiger Industrieteile und Lösungen für Kunden weltweit.",
+    "cta": "Produkte entdecken"
+  },
+  "contact": {
+    "title": "Kontaktieren Sie Uns",
+    "phone": "+86 153 0504 6101",
+    "email": "jlsmartlink@gmail.com",
+    "whatsapp": "WhatsApp: +86 153 0504 6101"
+  },
+  "footer": {
+    "copyright": "© 2026 JL Smart Link Industrial. Alle Rechte vorbehalten."
+  }
+}
