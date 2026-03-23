@@ -27,7 +27,7 @@ export default async function RootLayout({
     notFound();
   }
 
-  const messages = await getMessages({ locale });
+  const messages = await getMessages();
 
   return (
     <html lang={locale} style={{ fontFamily: 'sans-serif' }}>
